@@ -112,7 +112,7 @@ let tests = [
 
   (* ---- Student tests Coleton Glidewell ---- *)
   make_f "student2_add_f" 9.9 "4.4+.5.5";
-  make_f "student2_mul_f" 12.0 "3.0.4.0";
+  make_f "student2_mul_f" 12.0 "3.0 *. 4.0";
   make_i "student2_sub_i" 37 "90 - 53";
   make_f "student2_sub_f" 7.8 "15.3 -. 7.5";
   make_i "student2_div_i" 8 "64/8";
