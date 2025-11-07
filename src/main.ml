@@ -1,6 +1,6 @@
 (* File: main.ml 
    Project: Project 1 - CalcPL
-   Author: Guido Fajardo
+   Authors: Coleton Glidewell, Guido Fajardo
    Date: November 07, 2025
    The goal of this project is to get familiar with developing a programming language in OCaml. 
    In this project, I will extend the CalcPL initial version.

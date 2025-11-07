@@ -98,7 +98,7 @@ let tests = [
   make_t "invalid geq_float" bop_err "true >= 1.0";
 
 
-   (* ---- Student tests ---- *)
+   (* ---- Student tests Guido Fajardo ---- *)
   make_f "student_add_f" 5.3 "3.5+.1.8";
   make_f "student_mul_f" 3.0 "1.5*.2.0";
   make_i "student_sub_i" 42 "100 - 58";
@@ -108,6 +108,18 @@ let tests = [
   make_b "student_leq2_f" true "3.14<=3.14";
   make_b "student_geq_i" false "10>=11";
   make_t "student_type_err" bop_err "1.0 +. 1";
+
+
+  (* ---- Student tests Coleton Glidewell ---- *)
+  make_f "student2_add_f" 9.9 "4.4+.5.5";
+  make_f "student2_mul_f" 12.0 "3.0.4.0";
+  make_i "student2_sub_i" 37 "90 - 53";
+  make_f "student2_sub_f" 7.8 "15.3 -. 7.5";
+  make_i "student2_div_i" 8 "64/8";
+  make_f "student2_div_f" 4.5 "9.0/.2.0";
+  make_b "student2_leq_f" false "7.2<=3.1";
+  make_b "student2_geq_i" true "15>=9";
+  make_t "student2_type_err" bop_err "2.0 *. true";
 
 ]
 
